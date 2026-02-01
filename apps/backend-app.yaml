@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/stephanenoutsa/gitops-argocd.git
     targetRevision: HEAD
-    path: apps
+    path: backend
 
   destination:
     server: https://kubernetes.default.svc
